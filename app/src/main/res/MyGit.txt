@@ -1,0 +1,22 @@
+0) Add remote repo
+git remote add origin https://github.com/pavel-jahont/Kotlin.git
+1)  Delete branch:
+remote:    git push x4 --delete sept
+local:        git branch --delete semptember09
+2) Config:
+     git config --list
+     git config user.name "Pavel"   |    git config color.interactive false
+3) Pull
+    git pull x5 master
+4) Push
+     git push x4 september09:sept - (you are in september09 local --> you create remote sept and make push)
+5) Rename
+    git remote rename origin x4
+6) branches list
+    git branch -a
+7) Refers
+    git remote add x6 https://github.com/pavel-jahont/ProjectX6.git         |        add refer x6(abbreviated name) then full name of link
+    git remote show     |      see only alias
+    git remote -v          |      see all alias and  all refers
+    git remote rm x4    |      delete x4
+8) git fetch    |     upload from remote repo only changes (not all) which you haven't on you local repo
